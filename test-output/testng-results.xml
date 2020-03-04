@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34" started-at="2020-01-30T07:22:46Z" finished-at="2020-01-30T07:22:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34" started-at="2020-01-30T07:22:46Z" finished-at="2020-01-30T07:22:46Z">
+      <class name="com.acme.APITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.acme.APITest@1bc6a36e]" name="deleteTwitter" duration-ms="0" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:com.acme.APITest@1bc6a36e]" name="postJira" duration-ms="1" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- com.acme.APITest -->
+      <class name="com.acme.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:com.acme.SeleniumTest@1ff8b8f]" name="browserAutomation" duration-ms="1" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="uiElements()[pri:0, instance:com.acme.SeleniumTest@1ff8b8f]" name="uiElements" duration-ms="1" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiElements -->
+      </class> <!-- com.acme.SeleniumTest -->
+      <class name="com.acme.AppiumTest">
+        <test-method status="PASS" signature="iosApps()[pri:0, instance:com.acme.AppiumTest@22a71081]" name="iosApps" duration-ms="10" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApps -->
+        <test-method status="PASS" signature="nativeApps()[pri:0, instance:com.acme.AppiumTest@22a71081]" name="nativeApps" duration-ms="0" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeApps -->
+      </class> <!-- com.acme.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88" started-at="2020-03-03T19:03:13 NZDT" finished-at="2020-03-03T19:03:14 NZDT">
+    <groups>
+      <group name="smoke">
+        <method signature="APITest.deleteTwitter()[pri:0, instance:com.acme.APITest@520a3426]" name="deleteTwitter" class="com.acme.APITest"/>
+        <method signature="AppiumTest.iosApps()[pri:0, instance:com.acme.AppiumTest@6536e911]" name="iosApps" class="com.acme.AppiumTest"/>
+        <method signature="SeleniumTest.browserAutomation()[pri:0, instance:com.acme.SeleniumTest@18eed359]" name="browserAutomation" class="com.acme.SeleniumTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="88" started-at="2020-03-03T19:03:13 NZDT" finished-at="2020-03-03T19:03:14 NZDT">
+      <class name="com.acme.APITest">
+        <test-method status="PASS" signature="postJira()[pri:0, instance:com.acme.APITest@520a3426]" name="postJira" duration-ms="0" started-at="2020-03-03T19:03:14 NZDT" finished-at="2020-03-03T19:03:14 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.acme.APITest@520a3426]" name="deleteTwitter" duration-ms="0" started-at="2020-03-03T19:03:14 NZDT" finished-at="2020-03-03T19:03:14 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+      </class> <!-- com.acme.APITest -->
+      <class name="com.acme.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:com.acme.SeleniumTest@18eed359]" name="browserAutomation" duration-ms="4" started-at="2020-03-03T19:03:14 NZDT" finished-at="2020-03-03T19:03:14 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="uiElements()[pri:0, instance:com.acme.SeleniumTest@18eed359]" name="uiElements" duration-ms="0" started-at="2020-03-03T19:03:14 NZDT" finished-at="2020-03-03T19:03:14 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiElements -->
+      </class> <!-- com.acme.SeleniumTest -->
+      <class name="com.acme.AppiumTest">
+        <test-method status="PASS" signature="iosApps()[pri:0, instance:com.acme.AppiumTest@6536e911]" name="iosApps" duration-ms="12" started-at="2020-03-03T19:03:13 NZDT" finished-at="2020-03-03T19:03:13 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApps -->
+        <test-method status="PASS" signature="nativeApps()[pri:0, instance:com.acme.AppiumTest@6536e911]" name="nativeApps" duration-ms="0" started-at="2020-03-03T19:03:13 NZDT" finished-at="2020-03-03T19:03:13 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeApps -->
+      </class> <!-- com.acme.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
