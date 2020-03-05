@@ -7,7 +7,7 @@ public class APITest {
 	@Test
 	public void postJira() {
 		
-		System.out.println("This has been posted from the original MavenJava project in GITstuff");
+		System.out.println("This change has been posted from the original MavenJava project in GITstuff");
 		System.out.println("I have posted JIRA code");
 	}
 	
