@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="136" started-at="2020-03-05T01:53:42Z" finished-at="2020-03-05T01:53:42Z">
+  <suite name="Default suite" duration-ms="68" started-at="2020-03-05T02:37:15Z" finished-at="2020-03-05T02:37:15Z">
     <groups>
       <group name="smoke">
-        <method signature="APITest.deleteTwitter()[pri:0, instance:com.acme.APITest@4c203ea1]" name="deleteTwitter" class="com.acme.APITest"/>
+        <method signature="APITest.deleteTwitter()[pri:0, instance:com.acme.APITest@5594a1b5]" name="deleteTwitter" class="com.acme.APITest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="136" started-at="2020-03-05T01:53:42Z" finished-at="2020-03-05T01:53:42Z">
+    <test name="Default test" duration-ms="68" started-at="2020-03-05T02:37:15Z" finished-at="2020-03-05T02:37:15Z">
       <class name="com.acme.APITest">
-        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.acme.APITest@4c203ea1]" name="deleteTwitter" duration-ms="48" started-at="2020-03-05T14:53:42Z" finished-at="2020-03-05T14:53:42Z">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.acme.APITest@5594a1b5]" name="deleteTwitter" duration-ms="35" started-at="2020-03-05T15:37:15Z" finished-at="2020-03-05T15:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTwitter -->
-        <test-method status="PASS" signature="postJira()[pri:0, instance:com.acme.APITest@4c203ea1]" name="postJira" duration-ms="42" started-at="2020-03-05T14:53:42Z" finished-at="2020-03-05T14:53:42Z">
+        <test-method status="PASS" signature="postJira()[pri:0, instance:com.acme.APITest@5594a1b5]" name="postJira" duration-ms="1" started-at="2020-03-05T15:37:15Z" finished-at="2020-03-05T15:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postJira -->
