@@ -1,41 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34" started-at="2020-01-30T07:22:46Z" finished-at="2020-01-30T07:22:46Z">
+  <suite name="Default suite" duration-ms="136" started-at="2020-03-05T01:53:42Z" finished-at="2020-03-05T01:53:42Z">
     <groups>
+      <group name="smoke">
+        <method signature="APITest.deleteTwitter()[pri:0, instance:com.acme.APITest@4c203ea1]" name="deleteTwitter" class="com.acme.APITest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="34" started-at="2020-01-30T07:22:46Z" finished-at="2020-01-30T07:22:46Z">
+    <test name="Default test" duration-ms="136" started-at="2020-03-05T01:53:42Z" finished-at="2020-03-05T01:53:42Z">
       <class name="com.acme.APITest">
-        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.acme.APITest@1bc6a36e]" name="deleteTwitter" duration-ms="0" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.acme.APITest@4c203ea1]" name="deleteTwitter" duration-ms="48" started-at="2020-03-05T14:53:42Z" finished-at="2020-03-05T14:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTwitter -->
-        <test-method status="PASS" signature="postJira()[pri:0, instance:com.acme.APITest@1bc6a36e]" name="postJira" duration-ms="1" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
+        <test-method status="PASS" signature="postJira()[pri:0, instance:com.acme.APITest@4c203ea1]" name="postJira" duration-ms="42" started-at="2020-03-05T14:53:42Z" finished-at="2020-03-05T14:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postJira -->
       </class> <!-- com.acme.APITest -->
-      <class name="com.acme.SeleniumTest">
-        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:com.acme.SeleniumTest@1ff8b8f]" name="browserAutomation" duration-ms="1" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserAutomation -->
-        <test-method status="PASS" signature="uiElements()[pri:0, instance:com.acme.SeleniumTest@1ff8b8f]" name="uiElements" duration-ms="1" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uiElements -->
-      </class> <!-- com.acme.SeleniumTest -->
-      <class name="com.acme.AppiumTest">
-        <test-method status="PASS" signature="iosApps()[pri:0, instance:com.acme.AppiumTest@22a71081]" name="iosApps" duration-ms="10" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iosApps -->
-        <test-method status="PASS" signature="nativeApps()[pri:0, instance:com.acme.AppiumTest@22a71081]" name="nativeApps" duration-ms="0" started-at="2020-01-30T20:22:46Z" finished-at="2020-01-30T20:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nativeApps -->
-      </class> <!-- com.acme.AppiumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
