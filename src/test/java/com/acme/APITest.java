@@ -15,14 +15,15 @@ public class APITest {
 		String date = simpleDateFormat.format(new Date());
 		System.out.println("I have posted JIRA code");
 		System.out.println("This change has been posted from the original MavenJava project in GITstuff");
-		System.out.println(date + " :: GITercise - And I have tidied up your timeline and added this code");
+		System.out.println("202003051537 :: GITercise - And I have tidied up your timeline and added this code");
+		System.out.println("202003051554 :: MavenJava update.");
 	}
 	
 	@Test(groups= {"smoke"})
 	public void deleteTwitter() {
 		
-		String anotherDate = simpleDateFormat.format(new Date());
 		System.out.println("I have deleted Twitter");
-		System.out.println(anotherDate + " :: Added date formatting");
+		System.out.println("202003051537 :: Added date formatting");
+		System.out.println("202003051554 :: MavenJava update.");
 	}
 }
